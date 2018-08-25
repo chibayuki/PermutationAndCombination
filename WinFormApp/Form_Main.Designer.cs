@@ -136,11 +136,6 @@
             this.Label_ReturnToZero.TabIndex = 0;
             this.Label_ReturnToZero.Text = "C";
             this.Label_ReturnToZero.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Label_ReturnToZero.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Label_ReturnToZero_MouseClick);
-            this.Label_ReturnToZero.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Label_ReturnToZero_MouseDown);
-            this.Label_ReturnToZero.MouseEnter += new System.EventHandler(this.Label_ReturnToZero_MouseEnter);
-            this.Label_ReturnToZero.MouseLeave += new System.EventHandler(this.Label_ReturnToZero_MouseLeave);
-            this.Label_ReturnToZero.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Label_ReturnToZero_MouseUp);
             // 
             // Panel_Input
             // 
@@ -170,11 +165,6 @@
             this.Label_AC.TabIndex = 0;
             this.Label_AC.Text = "A";
             this.Label_AC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.Label_AC.MouseClick += new System.Windows.Forms.MouseEventHandler(this.Label_AC_MouseClick);
-            this.Label_AC.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Label_AC_MouseDown);
-            this.Label_AC.MouseEnter += new System.EventHandler(this.Label_AC_MouseEnter);
-            this.Label_AC.MouseLeave += new System.EventHandler(this.Label_AC_MouseLeave);
-            this.Label_AC.MouseUp += new System.Windows.Forms.MouseEventHandler(this.Label_AC_MouseUp);
             // 
             // Label_Total
             // 
