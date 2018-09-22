@@ -73,14 +73,9 @@ namespace WinFormApp
         {
             get
             {
-                const int WS_MINIMIZEBOX = 0x00020000;
-
                 CreateParams CP = base.CreateParams;
 
-                if (Me != null && Me.FormStyle != Com.WinForm.FormStyle.Dialog)
-                {
-                    CP.Style = CP.Style | WS_MINIMIZEBOX;
-                }
+                CP.Style |= 0x00020000;
 
                 return CP;
             }
@@ -120,11 +115,11 @@ namespace WinFormApp
         {
             Me.Caption = Application.ProductName;
             Me.FormStyle = Com.WinForm.FormStyle.Fixed;
+            Me.EnableMaximize = false;
             Me.EnableFullScreen = false;
             Me.ClientSize = new Size(450, 225);
             Me.Theme = Com.WinForm.Theme.Colorful;
             Me.ThemeColor = Com.ColorManipulation.GetRandomColorX();
-            Me.FormState = Com.WinForm.FormState.Maximized;
 
             Me.Loaded += LoadedEvents;
             Me.Closed += ClosedEvents;
