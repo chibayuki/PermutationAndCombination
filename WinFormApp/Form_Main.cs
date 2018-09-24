@@ -69,18 +69,6 @@ namespace WinFormApp
             }
         }
 
-        protected override CreateParams CreateParams
-        {
-            get
-            {
-                CreateParams CP = base.CreateParams;
-
-                CP.Style |= 0x00020000;
-
-                return CP;
-            }
-        }
-
         private void _Ctor(Com.WinForm.FormManager owner)
         {
             InitializeComponent();
