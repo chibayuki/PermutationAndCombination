@@ -2,7 +2,7 @@
 Copyright © 2018 chibayuki@foxmail.com
 
 排列组合 (PermutationAndCombination)
-Version 18.8.12.0000
+Version 18.10.2.1600
 
 This file is part of "排列组合" (PermutationAndCombination)
 
@@ -36,7 +36,7 @@ namespace WinFormApp
         private static readonly Int32 BuildNumber = new Version(Application.ProductVersion).Build; // 版本号。
         private static readonly Int32 BuildRevision = new Version(Application.ProductVersion).Revision; // 修订版本。
         private static readonly string LabString = "REL"; // 分支名。
-        private static readonly string BuildTime = "180812-0000"; // 编译时间。
+        private static readonly string BuildTime = "181002-1600"; // 编译时间。
 
         #endregion
 

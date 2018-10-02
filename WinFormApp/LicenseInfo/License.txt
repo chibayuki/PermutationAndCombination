@@ -1,6 +1,6 @@
 ﻿Copyright © 2018 chibayuki@foxmail.com
 
 排列组合 (PermutationAndCombination)
-Version 18.8.12.0000
+Version 18.10.2.1600
 
 "排列组合" (PermutationAndCombination) is released under the GPLv3 license, see GPLv3.txt for more information.
